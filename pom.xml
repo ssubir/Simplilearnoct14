@@ -4,6 +4,9 @@
 	<groupId>com.mkyong.common</groupId>
 	<artifactId>Struts2Example</artifactId>
 	<packaging>war</packaging>
+	<properties>
+    <failOnMissingWebXml>false</failOnMissingWebXml>   
+	</properties>
 	<version>com.mkyong.common</version>
 	<name>Struts2Example Maven Webapp</name>
 	<url>http://maven.apache.org</url>
@@ -33,7 +36,5 @@
 			</plugin>
 		</plugins>
 	</build>
-	<properties>
-    <failOnMissingWebXml>false</failOnMissingWebXml>   
-	</properties> 
+	 
 </project>
